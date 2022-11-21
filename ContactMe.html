@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h3>Contact Me</h3>
+    <ol type="a">
+        <li>Email: ashas.bukhari@gmail.com</li>
+        <li>Linkedin: linkedin.com/in/syed-ashas-bukhari </li>
+        <li>Phone Number: +97152 960 8587</li>
+        <li>Dubai, UAE</li>
+    </ol>
+<!-- COPY PASTE FROM HERE TO THE ORIGINAL DOCUMENT-->
+<hr noshade="">
+<h3>Leave Your Contact Information</h3>
+<form action="mailto:ashas.bukhari@gmail.com" method="post" enctype="text/plain"> 
+<!-- This is the forms tag. use it to make forms. 
+    The action attribute is what will happen when you press the submit button
+    i have specified a mailto, meaning that the submit button will send an email to the mentioned address
+    The method is post, meaning that the information that is entered will be posted to our specified email
+    enctype means encoding type, just like charset in the boiler plate. it tells us the type of language we are encoding our form in
+    in this case, the language is text/plain
+    all information will be shown in plain text
+-->
+<label>Name</label> <!-- label tags will gove labels to the form -->
+<input type="text" name="YourName"><br> 
+<!--changing the input type will result in different types of coices
+    changine the name attribute will tell the browser to classify each input properly in the email -->
+<label>Email Address</label>
+<input type="email" name="YourEmail"><br>
+<label for="">Date of Birth</label>
+<input type="date"><br>
+<label>Upload an Image</label>
+<input type="file"><br>
+<label for="">Sign up to my newsletter?</label>
+<input type="checkbox" name="" id=""><br>
+<label for="">Leave a Message</label><br>
+<textarea name="YourMessage" rows="10" cols="30"></textarea><br>
+<input type="submit"> <!-- the submit input type turns this into a submit button-->
+<br>
+<br>
+<label for="">Already signed up? <br>Enter password</label>
+
+<input type="password"><br>
+
+</form>
+
+</body>
+</html>
